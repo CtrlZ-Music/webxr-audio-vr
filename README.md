@@ -6,24 +6,24 @@ This project creates a virtual environment in the browser where users can listen
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🌍 **Immersive 3D scene** rendered in WebXR using Three.js.
-- 🎵 **8.1 multichannel spatial audio**:
+- **Immersive 3D scene** rendered in WebXR using Three.js.
+- **8.1 multichannel spatial audio**:
   - 8 `SphereXXX` meshes as point sources.
   - 1 central `Socle001` mesh for low frequencies (subwoofer).
-- 🎧 Real-time **audio playback and analysis** using `THREE.PositionalAudio` and `AudioAnalyser`.
-- 🎚️ Dynamic GUI (via `lil-gui`) to adjust:
+- Real-time **audio playback and analysis** using `THREE.PositionalAudio` and `AudioAnalyser`.
+- Dynamic GUI (via `lil-gui`) to adjust:
   - Audio volume, cone angles, and mute settings.
   - Model and HDR environment.
   - Moebius loop visualization (reactive to sound).
-- 🔁 Load multiple demos: switch between different HDRIs, GLB models, and audio sets.
-- 🧠 VR headset support with 6DoF movement, jumping, and flight mode.
-- ✨ Audio-reactive shaders applied to an IcoSphere driven by frequency data.
+-  Load multiple demos: switch between different HDRIs, GLB models, and audio sets.
+- VR headset support with 6DoF movement, jumping, and flight mode.
+- Audio-reactive shaders applied to an IcoSphere driven by frequency data.
 
 ---
 
-## 📦 File Structure
+## File Structure
 
 webxr-audio-vr/
 ├── index.html
@@ -46,7 +46,7 @@ webxr-audio-vr/
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - [Three.js](https://threejs.org/)
 - [WebXR](https://immersive-web.github.io/webxr/)
@@ -58,7 +58,7 @@ webxr-audio-vr/
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
 
@@ -77,16 +77,8 @@ For more details, see the [license file](LICENSE).
 
 ---
 
-## 👤 Author
+##  Author
 
 Developed by **[Ctrl-Z & JOE]**  
 
 
----
-
-## 🕹️ Try It
-
-Host locally with a simple server (like [http-server](https://www.npmjs.com/package/http-server)):
-
-```bash
-npx http-server .
